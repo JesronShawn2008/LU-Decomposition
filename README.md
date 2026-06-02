@@ -8,10 +8,10 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Read the input matrix A (and the right-hand side vector b if solving a linear system) and convert them into NumPy arrays.
+2. Use the LU factorization function (lu_factor or lu) to decompose the matrix A into a lower triangular matrix L, an upper triangular matrix U, and a permutation/pivot matrix/vector (P or piv) that tracks row interchanges.
+3. Pass the factorized components (lu, piv) along with the vector $b$ into the LU solver (lu_solve) to calculate the solution vector X.
+4. Print the computed results, which will output either the individual matrices (L and U) or the final solution vector X depending on the experiment's specific objective.
 
 ## Program:
 (i) To find the L and U matrix
